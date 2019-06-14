@@ -1581,6 +1581,9 @@ Footer style
       color: #46495c; }
 
 @media (max-width: 991px) {
+  .main-phrase {
+    font-size: 40px;
+  }
   .hero-gradient-dark {
     padding-bottom: 0rem;
     padding-top: 4rem; }

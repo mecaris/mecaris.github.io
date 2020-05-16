@@ -195,7 +195,7 @@
                     </div>
                 </div><hr class="mb60">
                 <div class="text-center copyright">
-                    <span>&copy; Copyright 2019</span>
+                    <span>&copy; Copyright 2019-<span id="current_year"></span> </span>
                 </div>
             </div>
         </footer>
@@ -213,6 +213,10 @@
                 dotColor: '#65749f',
                 lineColor: '#65749f'
             });
+        </script>
+        <script>
+            str = (new Date(Date.now())).getFullYear()
+            document.getElementById("current_year").innerHTML = str;
         </script>
     </body>
 </html>

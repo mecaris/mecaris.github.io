@@ -1632,3 +1632,26 @@ Footer style
     display: table;
     margin: 0 auto;
     display: block; } }
+
+.customers-container img.customer-img{
+  width: 10%;
+  height: 20%;
+}
+.customers-container img.customer-img-sm{
+  width: 5%;
+  height: 20%;
+} 
+
+.customers-container img.customer-img-l{
+  width: 15%;
+  height: 20%;
+} 
+
+.customers-container img.customer-img-xl{
+  width: 25%;
+  height: 20%;
+} 
+
+.customers-section{
+  background-color: #F6F6F6;
+}
